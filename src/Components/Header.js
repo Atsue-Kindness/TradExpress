@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="home">
+      <Navbar />
       <div className="home-page">
-        <Navbar />
         <div className="header-container">
           <h1>Buy, sell and manage your Crypto on TradExpress.</h1>
           <p>

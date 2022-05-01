@@ -42,9 +42,9 @@ const Footer = () => {
           <a href="">erms and Conditions</a>
         </div>
       </div>
-      <div className="copyright-box">
+      {/* <div className="copyright-box">
         <img src={copyright} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

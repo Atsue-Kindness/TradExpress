@@ -5,11 +5,11 @@
 }
 
 /* NAVIGATION */
-.navbar-fixed {
+/* .navbar-fixed {
   position: sticky;
   top: 0;
   left: 0;
-}
+} */
 .navbar {
   display: flex;
   background: linear-gradient(to right, #7c1fbf, #470a73);
@@ -45,7 +45,7 @@
 .navbar .right-side .links a {
   text-decoration: none;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-right: 2rem;
 }
 .navbar .right-side .links a:hover {
@@ -162,12 +162,16 @@
   min-width: 280px;
   min-height: 600px;
   padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+}
+.header-container {
+  padding-top: 10rem;
 }
 
 .home-page h1 {
   font-size: 1.8rem;
   color: #ffffff;
-  margin: 3rem auto 1.5rem;
+  margin: 0 auto 1.5rem;
   font-weight: 600;
   letter-spacing: 2px;
   padding: 0 2rem;
@@ -203,12 +207,12 @@
 }
 
 @media (min-width: 767px) {
-  .get-started {
+  /* .get-started {
     margin: 4rem 0 2rem;
-  }
-  .header-container {
+  } */
+  /* .header-container {
     margin-top: 5rem;
-  }
+  } */
 }
 @media (min-width: 838px) {
   .home-page {
@@ -237,9 +241,9 @@
   .home-page {
     min-height: 900px;
   }
-  .header-container {
+  /* .header-container {
     margin-top: 10rem;
-  }
+  } */
 }
 
 /* DATA PAGE STYLING */
@@ -255,7 +259,8 @@
 .overall-container {
   border-bottom: 2px solid rgb(205, 205, 205);
   padding: 1rem 0;
-  margin-left: 1rem;
+  margin: 1rem auto 0;
+  min-width: 280px;
 }
 .mini-box h3 {
   margin-bottom: 1.5rem;
@@ -302,11 +307,13 @@
 }
 
 /* CARDS PAGE STYLING */
-
+.card-marg {
+  margin: 0 1rem;
+}
 .card-container {
-  margin-top: 10rem;
   text-align: center;
   min-width: 280px;
+  margin: 10rem auto 0;
 }
 .card-container h2 {
   font-size: 1.4rem;
@@ -364,6 +371,13 @@
 }
 
 /* SECTIONONE PAGE STYLING */
+.sect-one-merg {
+  margin: 0 1rem;
+}
+.sectionOne {
+  min-width: 280px;
+  margin: 0 auto;
+}
 
 .section-one-container {
   display: flex;
@@ -381,7 +395,7 @@
   margin-bottom: 4rem;
   color: #26093a;
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 .number {
   background-color: #7c20bf;
@@ -403,7 +417,7 @@
 }
 .other-texts p {
   font-size: 1rem;
-  width: 350px;
+  padding: 0 4rem 0 0;
 }
 .image-side img {
   flex: start;
@@ -449,6 +463,7 @@
 /* SECTIONtWO STYLING */
 
 .Section-two {
+  min-width: 280px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -457,6 +472,7 @@
   align-items: center;
   background-color: white;
   padding: 7rem 0;
+  margin: 0 auto;
 }
 .Section-two p {
   font-size: 1rem;
@@ -503,6 +519,10 @@
 }
 
 /* TESTIMONIAL PAGE STYLING */
+.testimonial-sect {
+  min-width: 280px;
+  margin: 0 auto;
+}
 .testimonial-sect {
   padding: 8rem 0;
 }
@@ -557,6 +577,10 @@
 }
 
 /* FOOTER STYLING */
+.footer {
+  min-width: 280px;
+  margin: 0 auto;
+}
 .link-blocks {
   background-color: white;
   padding: 5rem 3rem;
