@@ -165,7 +165,7 @@
   margin: 0 auto;
 }
 .header-container {
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .home-page h1 {
@@ -207,12 +207,9 @@
 }
 
 @media (min-width: 767px) {
-  /* .get-started {
-    margin: 4rem 0 2rem;
-  } */
-  /* .header-container {
-    margin-top: 5rem;
-  } */
+  .header-container {
+    padding-top: 14rem;
+  }
 }
 @media (min-width: 838px) {
   .home-page {
@@ -241,12 +238,12 @@
   .home-page {
     min-height: 900px;
   }
-  /* .header-container {
-    margin-top: 10rem;
-  } */
 }
 
 /* DATA PAGE STYLING */
+.datammarg {
+  margin: 0 2rem;
+}
 .data-container {
   display: grid;
   grid-template-columns: 250px 250px 250px 250px 150px;
@@ -476,6 +473,7 @@
 }
 .Section-two p {
   font-size: 1rem;
+  padding: 0 3rem;
 }
 .Section-two h2 {
   font-size: 1.4rem;
@@ -519,13 +517,15 @@
 }
 
 /* TESTIMONIAL PAGE STYLING */
+.test-mag {
+  margin: 0 1rem;
+}
 .testimonial-sect {
   min-width: 280px;
   margin: 0 auto;
-}
-.testimonial-sect {
   padding: 8rem 0;
 }
+
 .testimonial-sect h2 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -534,8 +534,8 @@
 }
 .quotess {
   background-color: #7c1fbf;
-  width: 400px;
-  padding: 3rem 4.5rem;
+  /* min-width: 270px; */
+  padding: 2rem 3rem;
   color: white;
   border-radius: 7px;
 }
@@ -671,11 +671,6 @@
   cursor: pointer;
 }
 .form-page .filter .buy-sell a {
-  font-size: 1rem;
-  padding: 0.2rem 2rem;
-  flex: 50%;
-  margin: 0 0.3rem;
-  cursor: pointer;
   text-decoration: none;
   color: #26093a;
 }
