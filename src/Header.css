@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  background-image: url(../src/Images/Landing\ page\ background0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.home-page h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  width: 550px;
+  margin: 5rem auto 2rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.home-page p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  width: 400px;
+  margin: 0 auto 4rem;
+}
