@@ -45,7 +45,7 @@
 .navbar .right-side .links a {
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-right: 2rem;
 }
 .navbar .right-side .links a:hover {
@@ -144,11 +144,11 @@
     padding-top: 3rem;
   }
   .navbar .right-side #hidden a {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   .btn-1,
   .btn-2 {
-    padding: 1rem 5rem;
+    padding: 0.7rem 3rem;
   }
 }
 
@@ -305,7 +305,7 @@
 
 /* CARDS PAGE STYLING */
 .card-marg {
-  margin: 0 1rem;
+  margin: 0 1.8rem;
 }
 .card-container {
   text-align: center;
@@ -383,7 +383,7 @@
   flex-wrap: wrap;
   gap: 3rem;
   min-width: 280px;
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-bottom: 10rem;
 }
 .sectionOne h2 {
@@ -414,16 +414,12 @@
 }
 .other-texts p {
   font-size: 1rem;
-  padding: 0 4rem 0 0;
+  padding: 0 2rem 0 0;
 }
 .image-side img {
   flex: start;
 }
-.sect-box-1 {
-  display: flex;
-  align-items: baseline;
-  gap: 2rem;
-}
+
 .add-margin-top {
   margin-top: 3rem;
 }
@@ -431,6 +427,11 @@
 @media (min-width: 576px) {
   .sectionOne h2 {
     font-size: 2rem;
+  }
+  .sect-box-1 {
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -518,7 +519,7 @@
 
 /* TESTIMONIAL PAGE STYLING */
 .test-mag {
-  margin: 0 1rem;
+  margin: 0 1.5rem 0 1.5rem;
 }
 .testimonial-sect {
   min-width: 280px;
@@ -534,13 +535,12 @@
 }
 .quotess {
   background-color: #7c1fbf;
-  /* min-width: 270px; */
-  padding: 2rem 3rem;
+  padding: 2rem 1.8rem;
   color: white;
   border-radius: 7px;
 }
 .quotess img {
-  margin: 1rem 0 1rem -2.4rem;
+  margin: 1rem 0 1rem -1rem;
 }
 .quotess p {
   font-size: 1rem;
@@ -569,6 +569,14 @@
   align-items: center;
   gap: 3rem;
   flex-wrap: wrap;
+}
+@media (min-width: 576px) {
+  .quotess {
+    padding: 2rem 3rem;
+  }
+  .quotess img {
+    margin: 1rem 0 1rem -2.4rem;
+  }
 }
 @media (min-width: 838px) {
   .testimonial-sect h2 {
