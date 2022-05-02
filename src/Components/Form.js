@@ -7,7 +7,7 @@ const Form = () => {
     <div className="form">
       <div className="form-page">
         <h2>Welcome</h2>
-        <div className="filter">
+        <div className="filter hidden">
           <p className="buy-sell buyuniq">
             <Link to="/getstarted">Individual</Link>
           </p>

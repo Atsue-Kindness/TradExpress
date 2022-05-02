@@ -620,6 +620,9 @@
 .form {
   min-width: 280px;
 }
+.form-page .hidden {
+  display: none;
+}
 .form-page {
   /* text-align: center; */
   margin: 3rem auto;
@@ -663,6 +666,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
   /* background-color: #d7d6d6; */
   background: #e4e4e4 0% 0% no-repeat padding-box;
@@ -795,6 +799,9 @@
   .form-page .login-paragraph,
   .form .form-page .down-part p {
     width: 60%;
+  }
+  .form-page .hidden {
+    display: flex;
   }
 }
 
